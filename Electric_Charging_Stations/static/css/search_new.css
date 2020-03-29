@@ -1,0 +1,67 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(23, 23, 26);
+  }
+  
+body {
+  background-color : rgb(202, 199, 199);
+}
+
+button {
+  background-color: blanchedalmond;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 17px;
+  font-weight: bolder;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  height : 45px;
+  width: 300px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  background-image: url("../img/stationandsnack.jpg");
+  background-size: 1200px;
+  height: 600px;
+}
+
+.p-title {
+  color: rgb(9, 51, 18)
+}
+
+.p-text {
+  color: rgb(0, 253, 241)
+}
+
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+
+.leaflet-popup-content-wrapper {
+  padding: 6px;
+  font-size: 12px;
+  line-height: 1;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  }

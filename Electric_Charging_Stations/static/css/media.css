@@ -1,0 +1,154 @@
+@media (max-width: 575.98px) { /* extral small*/
+    .navbar-nav {
+        position : relative;
+    }
+
+    .navbar {
+        background-color : rgb(6, 156, 156);
+    }
+  
+    .col-xs-12 {
+        background-color : white;
+        position : relative;
+        margin : 0;
+        margin-bottom :0;
+        margin-top : 50px;
+        padding : 30px;
+        width : 100%;
+        left : 0%;
+        right : 0%;
+    }  
+
+    .header-1 {
+        font-size: 25px;
+    }
+    
+    .header-2 {
+        color:rgb(6, 156, 156);
+        font-size: 22px;
+    }
+  
+    .nav-link {
+        color : #ffffff;
+        background-color: rgb(6, 156, 156);
+        box-shadow: none;
+    }
+
+    .p-title {
+        font-size: 30px;
+    }
+
+    .p-text {
+        font-size: 20px;
+    }
+
+    .container-img {
+        background-image: url("../img/stationandsnack.jpg");
+        background-size: 550px;
+        height: 300px;
+      }
+  
+}
+  
+@media (min-width: 576px) and (max-width: 767.98px) { /*small*/
+    .navbar-nav {
+        position : relative;
+    }
+
+    .navbar {
+        background-color : rgb(6, 156, 156);
+    }
+  
+    .col-md-12 {
+        background-color : white;
+        position : relative;
+        margin-bottom : 0;
+        margin-top : 50px;
+        padding : 30px;
+        left : 0%;
+        right : 0%;
+    }  
+  
+    .header-1 {
+        font-size: 30px;
+    }
+    
+    .header-2 {
+        color:rgb(6, 156, 156);
+        font-size: 28px;
+    }
+  
+    .nav-link {
+        color : #ffffff;
+        background-color: rgb(6, 156, 156);
+        box-shadow: none;
+    }
+
+    .p-title {
+        font-size: 30px;
+    }
+
+    .p-text {
+        font-size: 20px;
+    }
+
+    .container-img {
+        background-image: url("../img/stationandsnack.jpg");
+        background-size: 550px;
+        height: 300px;
+      }
+}
+  
+@media (min-width: 768px) and (max-width: 991.98px) { /*medium*/
+    .navbar-nav {
+        position : relative;
+    }
+  
+    .navbar {
+        background-color : rgb(6, 156, 156);
+    }
+  
+    .col-md-12 {
+        background-color : white;
+        position : relative;
+        margin-bottom : 0;
+        margin-top : 60px;
+        padding : 30px;
+        left : 0%;
+        right : 0%;
+    }  
+  
+    .nav-link {
+        color : #ffffff;
+        background-color: rgb(6, 156, 156);
+        box-shadow: none;
+    }
+
+    .p-title {
+        font-size: 50px;
+    }
+
+    .p-text {
+        font-size: 30px;
+    }
+
+    .container-img {
+        background-image: url("../img/stationandsnack.jpg");
+        background-size: 800px;
+        height: 400px;
+      }
+}
+  
+@media (min-width: 992px) {
+    .my-3 {
+        display: none;
+    }
+
+    .p-title {
+        font-size: 50px;
+    }
+
+    .p-text {
+        font-size: 30px;
+    }
+}

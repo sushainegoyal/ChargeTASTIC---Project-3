@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us" manifest="application.appcache">
+
+<head>
+  <title>Add a New Station</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/addpage.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/media.css">
+  <script type="text/javascript" src="../static/js/cache.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg"> <!--navigation bar-->
+    <a class="navbar-brand" href="/">ChargeTASTIC</a>
+    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/add">Add a New Location</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/search">See All Stations</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="jumbotron" style="text-align: center">
+        <h1>New Station</h1>
+        <p>Enter your new Electirc station  details below!</p>
+    </div>
+    <div class="row">
+        <div class="col-12">
+          <form method="POST" action="/add" role="form", name="locationform">
+            <div class="form-group">
+              <label for="addresstitle"><strong>Station Name</strong></label>
+              <input type="text" class="form-control" id="addresstitle" name="Title" placeholder="UofT Charging Station">
+            </div>
+
+            <div class="form-group">
+              <label for="address"><strong>Address</strong></label>
+              <input type="text" class="form-control" id="address" name="Address" placeholder="35 St George Street">
+            </div>
+
+            <div class="form-group">
+              <label for="town"><strong>City</strong></label>
+              <input type="text" class="form-control" id="town" name="town" placeholder="Toronto">
+            </div>
+
+            <div class="form-group">
+              <label for="state"><strong>Province</strong></label>
+              <input type="text" class="form-control" id="state" name="state" placeholder="Ontario">
+            </div>
+            <div class="form-group">
+              <label for="Lat"><strong>Latitude</strong></label>
+              <input type="text" class="form-control" id="Lat" name="Lat" placeholder="43">
+            </div>
+          
+            <div class="form-group">
+                <label for="Lon"><strong>Longitude</strong></label>
+                <input type="text" class="form-control" id="Lon" name="Lon" placeholder="-79">
+            </div>
+
+            <div class="form-group">
+              <label for="connectionTitle"><strong>Connection Type</strong></label>
+              <input type="text" class="form-control" id="connectionTitle" name="Plug_type" placeholder="Tesla Supercharger">
+            </div>
+
+            <div class="form-group">
+              <label for="levelid"><strong>Level ID</strong></label>
+              <input type="text" class="form-control" id="levelid" name="ID" placeholder="1, 2 or 3">
+            </div>
+
+            <div class="form-group">
+            <label for="levelID"><strong>Level Title</strong></label>
+            <input type="text" class="form-control" id="levelID" name="Level" placeholder="Level 3: High (Over40KW)">
+            </div>
+
+            <div class="form-group">
+              <label for="POCode"><strong>Post Code</strong></label>
+              <input type="text" class="form-control" id="POcode" name="POcode" placeholder="M5T 1J9">
+            </div>
+            <input type="submit" value="submit" class="btn btn-default">
+        </form>
+        </div>
+    </div>
+
+</div>
+  
+  <!-- <div id="map"></div>
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <script type="text/javascript" src="static/js/logic.js"></script> -->
+
+</body>
+
+  
+</html>

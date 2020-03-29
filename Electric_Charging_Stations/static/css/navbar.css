@@ -1,0 +1,51 @@
+.navbar {
+    padding : 1px;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left:2px;
+    margin-right:2px;
+    background-color : white;
+    overflow : hidden;
+}
+  
+.navbar-brand {
+    background-color: rgb(6, 156, 156);
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left:5%; margin-right:2%; margin-top:0; margin-bottom:0;
+    border-radius: 2px;
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+  
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+.navbar-nav {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left:10px;
+    position: absolute;
+    right : 0;
+}
+  
+.nav-item {
+    display: inline-block;
+    margin-right: 23px;
+}
+  
+.nav-link {
+    color : #000000;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 900;
+    background-color: rgb(232, 233, 248);
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px grey;
+}
